@@ -47,7 +47,7 @@ import CustomPricing from "../../components/public/Home/CustomPricing.jsx";
 const Home = () => {
   return (
     <div className="w-full relative overflow-hidden flex flex-col items-start justify-start tracking-[normal] mq450:h-auto">
-<HeaderComponent1 />
+{/* <HeaderComponent1 /> */}
 <HeaderComponent2 />
 <HeaderComponent3 />
 <HeaderComponent4 />

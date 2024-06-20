@@ -1,91 +1,98 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = ({ isLoggedIn, onSignOut }) => {
   return (
-    <header className="self-stretch bg-white overflow-hidden top-[0] z-[99] sticky max-w-full  text-color-brand-black font-Roboto shadow-md">
-      <div className="h-[80px] w-screen py-0 max-w-full flex items-center">
-        <div className="w-screen overflow-hidden flex flex-row items-center justify-start ml-10 gap-5">
-          <Link
-            to="/"
-            className="text-[18px] text-black hover:text-gray-600 no-underline transition duration-300"
-          >
-            Home
-          </Link>
-          <Link
-            to="/about-us"
-            className="text-[18px] text-black hover:text-gray-600 no-underline transition duration-300"
-          >
-            About Us
-          </Link>
-          <Link
-            to="/features"
-            className="text-[18px] text-black hover:text-gray-600 no-underline transition duration-300"
-          >
-            Features
-          </Link>
-          <Link
-            to="/services"
-            className="text-[18px] text-black hover:text-gray-600 no-underline transition duration-300"
-          >
-            Services
-          </Link>
-          <Link
-            to="/contact"
-            className="text-[18px] text-black hover:text-gray-600 no-underline transition duration-300"
-          >
-            Contact Us
-          </Link>
-          <Link
-            to="/pricing"
-            className="text-[18px] text-black hover:text-gray-600 no-underline transition duration-300"
-          >
-            Pricing
-          </Link>
-          <Link
-            to="/faqs"
-            className="text-[18px] text-black hover:text-gray-600 no-underline transition duration-300"
-          >
-            FAQs
-          </Link>
+    <div className="flex items-center overflow-visible sticky top-5 z-50 w-full font-poppins">
+      <svg
+        width="40"
+        height="40"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="px-[60px]"
+      >
+        <path
+          d="M12 2L2 7h20L12 2zM2 7v10l10 5 10-5V7L12 12 2 7z"
+          fill="#1F2937"
+        />
+      </svg>
 
-        </div>
+      <header className="bg-white text-black shadow-lg rounded-full w-[1680px] overflow-visible">
+        <div className="h-20 py-0 px-10 flex items-center justify-between">
+          <div className="flex items-center justify-around w-full">
+            <Link
+              to="/"
+              className="text-lg text-black hover:text-gray-500 transition duration-300 no-underline"
+            >
+              Home
+            </Link>
+            <Link
+              to="/about-us"
+              className="text-lg text-black hover:text-gray-500 transition duration-300 no-underline"
+            >
+              About Us
+            </Link>
+            <Link
+              to="/features"
+              className="text-lg text-black hover:text-gray-500 transition duration-300 no-underline"
+            >
+              Features
+            </Link>
+            <Link
+              to="/services"
+              className="text-lg text-black hover:text-gray-500 transition duration-300 no-underline"
+            >
+              Services
+            </Link>
+            <Link
+              to="/contact"
+              className="text-lg text-black hover:text-gray-500 transition duration-300 no-underline"
+            >
+              Contact Us
+            </Link>
+            <Link
+              to="/pricing"
+              className="text-lg text-black hover:text-gray-500 transition duration-300 no-underline"
+            >
+              Pricing
+            </Link>
+            <Link
+              to="/faqs"
+              className="text-lg text-black hover:text-gray-500 transition duration-300 no-underline"
+            >
+              FAQs
+            </Link>
 
-        {!isLoggedIn ? (
-          <>
-            <div className="flex-1 flex flex-row items-center justify-end">
-              <button className="cursor-pointer p-2 mr-[10px] bg-black w-[83px] rounded-[14px] box-border flex items-center justify-center border border-black hover:bg-darkslategray-300">
-                <Link
-                  to="/login"
-                  className="relative text-[16px] leading-[150%] font-Roboto text-white text-left no-underline"
-                >
-                  Login
-                </Link>
-              </button>
-
-              <div>
-                <button className="cursor-pointer p-2 mr-[100px] w-[83px] flex items-center justify-center border-none bg-white">
+            <div className="flex items-center gap-3">
+              {!isLoggedIn ? (
+                <>
+                  <Link
+                    to="/login"
+                    className="bg-black py-2 px-4 rounded-full text-white hover:bg-gray-700 transition duration-300 no-underline"
+                  >
+                    Login
+                  </Link>
                   <Link
                     to="/register"
-                    className="relative text-[16px] leading-[150%] font-text-small-link text-black text-left no-underline"
+                    className="bg-white py-2 px-4 rounded-full text-black border border-black hover:bg-gray-300 transition duration-300 no-underline"
                   >
                     Register
                   </Link>
+                </>
+              ) : (
+                <button
+                  onClick={onSignOut}
+                  className="bg-white py-2 px-4 rounded-full text-black border border-black hover:bg-gray-300 transition duration-300"
+                >
+                  Sign Out
                 </button>
-              </div>
+              )}
             </div>
-          </>
-        ) : (
-          <button
-            className="cursor-pointer p-2 mr-[100px] w-[83px] flex items-center justify-center border-none bg-white"
-            onClick={onSignOut}
-          >
-            Sign Out
-          </button>
-        )}
-      </div>
-    </header>
+          </div>
+        </div>
+      </header>
+    </div>
   );
 };
 
