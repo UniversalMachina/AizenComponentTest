@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const BenefitDescriptionContent = ({ className = "", heading, description }) => {
   return (
     <div
-      className={`w-[466px] flex flex-col items-start justify-start gap-[68px] max-w-full text-left text-[48px] text-customGray-1300 font-poppins mq900:gap-[34px] ${className}`}
+      className={`w-[466px] flex flex-col items-start justify-start gap-[68px] max-w-full text-left text-[48px] text-customColor-300 font-poppins mq900:gap-[34px] ${className}`}
     >
       <div className="self-stretch flex flex-col items-start justify-start gap-[40.7px] mq900:gap-[20px]">
         <img

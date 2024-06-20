@@ -26,7 +26,7 @@ const HeaderComponent1 = () => {
       </section>
       <section className="self-stretch flex flex-row items-start justify-center pt-0 pb-[159px] box-border max-w-full">
         <div className="w-[521px] flex flex-row flex-wrap items-start justify-center gap-[35px] max-w-full mq925:gap-[17px]">
-          <button className="cursor-pointer py-4 pr-[29px] pl-8 rounded-[20px] bg-black flex-1 rounded-[10px]-3 box-border overflow-hidden flex flex-row items-start justify-start min-w-[158px] whitespace-nowrap border-[0.9px] border-solid border-customGray-700 hover:bg-customGray-1400 hover:box-border hover:border-[0.9px] hover:border-solid hover:border-customGray-900">
+          <button className="cursor-pointer py-4 pr-[29px] pl-8 rounded-[20px] bg-customColor-300 flex-1 rounded-[10px]-3 box-border overflow-hidden flex flex-row items-start justify-start min-w-[158px] whitespace-nowrap border-[0.9px] border-solid border-customGray-700 hover:bg-customColor-150 hover:box-border hover:border-[0.9px] hover:border-solid hover:border-customColor-150">
             <div className="flex-1 relative text-[20px] font-medium font-poppins text-white text-center">
               Book A Call
             </div>

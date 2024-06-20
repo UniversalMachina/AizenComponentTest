@@ -38,7 +38,7 @@ const HeaderComponent5 = () => {
 };
 
   return (
-    <div className="pb-[60px] justify-center flex flex-col w-full">
+    <div className="pb-[60px] pt-[100px] justify-center flex flex-col w-full">
 
 <section
       className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[54px] box-border max-w-full text-center text-[12px] text-customGray-1100 font-poppins`}
@@ -52,18 +52,18 @@ const HeaderComponent5 = () => {
 
 
       <section className="self-stretch flex flex-row items-start justify-center pt-0 pb-11 pr-[60px] pl-5 box-border max-w-full text-center text-[96px] text-black font-poppins mq1350:pr-[30px] mq1350:box-border">
-        <h1 className="m-0 w-[1002px] relative text-inherit font-bold font-inherit inline-block shrink-0 max-w-full mq450:text-[29px] mq925:text-[48px]">
+        <h1 className="m-0 w-[1002px] relative  font-bold font-inherit text-customColor-300 text-[96px] inline-block shrink-0 max-w-full mq450:text-[29px] mq925:text-[48px]">
           {contentData.mainTitle1}
         </h1>
       </section>
       <section className="self-stretch flex flex-row items-start justify-center pt-0 pb-[93px] pr-[38px] pl-5 box-border max-w-full text-center text-[24px] text-customGray-1100 font-poppins">
-        <div className="w-[756px] relative leading-[189.16%] inline-block shrink-0 max-w-full mq450:text-[19px] mq450:leading-[36px]">
+        <div className="w-[756px] relative leading-[189.16%] inline-block  shrink-0 max-w-full mq450:text-[19px] mq450:leading-[36px] ">
           {contentData.description1}
         </div>
       </section>
       <section className="self-stretch flex flex-row items-start justify-center pt-0 pb-[221px] pr-[21px] pl-5 box-border max-w-full text-center text-[40px] text-customGray-1100 font-poppins">
         <div className="w-[719px] flex flex-row items-start justify-center gap-[37.3px] max-w-full mq925:flex-wrap mq925:gap-[19px]">
-          <button className="cursor-pointer py-[22px] pr-[41px] pl-[45px] bg-black flex-[0.7407] rounded-[13.08px] box-border overflow-hidden flex flex-row items-start justify-start min-w-[222px] whitespace-nowrap max-w-full border-[1.3px] border-solid border-customGray-700 hover:bg-customGray-1400 hover:box-border hover:border-[1.3px] hover:border-solid hover:border-customGray-900 mq450:pl-5 mq450:box-border mq925:flex-1">
+          <button className="cursor-pointer py-[22px] pr-[41px] pl-[45px] bg-customColor-300 flex-[0.7407] rounded-[13.08px] box-border overflow-hidden flex flex-row items-start justify-start min-w-[222px] whitespace-nowrap max-w-full border-[1.3px] border-solid border-customColor-150 hover:bg-customColor-200 hover:box-border hover:border-[1.3px] hover:border-solid mq450:pl-5 mq450:box-border mq925:flex-1">
             <div className="flex-1 relative text-[28px] font-medium font-poppins text-white text-center">
               Book A Call
             </div>

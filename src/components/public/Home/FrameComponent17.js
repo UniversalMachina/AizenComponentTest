@@ -9,7 +9,7 @@ const FrameComponent17 = ({ className = "" }) => {
     mainTitle: "Flexible Payment Options with TestApp",
     cards: [
       {
-        imgSrc: "/vector-4.svg",
+        imgSrc: "/vector-4 white.svg",
         text: "Enjoy flexible payment options with TestApp's seamless services.",
       },
       {
@@ -17,7 +17,7 @@ const FrameComponent17 = ({ className = "" }) => {
         text: "Experience ease with TestApp’s versatile financing plans.",
       },
       {
-        imgSrc: "/vector-4.svg",
+        imgSrc: "/vector-4 white.svg",
         text: "TestApp offers adaptable payment plans for your convenience.",
       },
       {
@@ -31,13 +31,13 @@ const FrameComponent17 = ({ className = "" }) => {
     <animated.div
       ref={ref}
       style={springs}
-      className={`self-stretch bg-customColor-100 overflow-hidden flex flex-col items-start justify-start pt-[41px] pb-[83px] pr-[195px] pl-[228px] box-border gap-[39px] max-w-full text-left text-[32px] text-customGray-1100 font-poppins mq900:gap-[19px] mq900:pl-[57px] mq900:pr-12 mq900:box-border mq1300:pl-[114px] mq1300:pr-[97px] mq1300:box-border ${className}`}
+      className={`self-stretch overflow-hidden flex flex-col items-start justify-start pt-[41px] pb-[83px] pr-[195px] pl-[228px] box-border gap-[39px] max-w-full text-left text-[32px] text-customGray-1100 font-poppins mq900:gap-[19px] mq900:pl-[57px] mq900:pr-12 mq900:box-border mq1300:pl-[114px] mq1300:pr-[97px] mq1300:box-border ${className}`}
     >
       <div className="w-[847px] relative font-semibold text-customColor-300 inline-block max-w-full mq450:text-[19px] mq900:text-[26px]">
         {contentData.mainTitle}
       </div>
       <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[33px] max-w-full text-[20px] text-black mq900:gap-[16px]">
-        <div className="flex-1 shadow-[0px_0px_15.3px_5px_rgba(0,_0,_0,_0.1)] rounded-[23px] bg-white overflow-hidden flex flex-col items-start justify-start pt-[33.5px] pb-14 pr-5 pl-[31px] box-border gap-[23.7px] min-w-[307px] max-w-full">
+        <div className="flex-1 shadow-[0px_0px_15.3px_5px_rgba(0,_0,_0,_0.1)] rounded-[23px] bg-customColor-300 text-white overflow-hidden flex flex-col items-start justify-start pt-[33.5px] pb-14 pr-5 pl-[31px] box-border gap-[23.7px] min-w-[307px] max-w-full">
           <img
             className="w-[39.9px] h-[38.8px] relative"
             loading="lazy"
@@ -57,7 +57,7 @@ const FrameComponent17 = ({ className = "" }) => {
             {contentData.cards[1].text}
           </div>
         </div>
-        <div className="flex-1 shadow-[0px_0px_15.3px_5px_rgba(0,_0,_0,_0.1)] rounded-[23px] bg-white overflow-hidden flex flex-col items-start justify-start pt-[33.5px] pb-14 pr-5 pl-[31px] box-border gap-[23.7px] min-w-[307px] max-w-full">
+        <div className="flex-1 shadow-[0px_0px_15.3px_5px_rgba(0,_0,_0,_0.1)] rounded-[23px] bg-customColor-300 text-white overflow-hidden flex flex-col items-start justify-start pt-[33.5px] pb-14 pr-5 pl-[31px] box-border gap-[23.7px] min-w-[307px] max-w-full">
           <img
             className="w-[39.9px] h-[38.8px] relative"
             loading="lazy"

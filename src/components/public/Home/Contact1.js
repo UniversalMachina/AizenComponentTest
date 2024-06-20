@@ -1,14 +1,15 @@
+import React from "react";
 import Content2 from "./Content2";
 
 const Contact1 = () => {
   return (
-    <footer className="self-stretch bg-white overflow-hidden flex flex-col items-center justify-center pt-[149.3px] px-5 pb-[149.4px] gap-[106.7px] shrink-0 [debug_commit:f6aba90] z-[1] text-center text-[14.9px] text-black font-Roboto mq450:gap-[27px_106.7px] mq750:gap-[53px_106.7px] mq750:pb-[63px] mq750:box-border mq1050:pb-[97px] mq1050:box-border">
+    <footer className="self-stretch bg-white overflow-hidden flex flex-col items-center justify-center pt-[149.3px] px-5 pb-[149.4px] gap-[106.7px] shrink-0 z-[1] text-center text-[14.9px] text-black font-poppins mq450:gap-[27px_106.7px] mq750:gap-[53px_106.7px] mq750:pb-[63px] mq750:box-border mq1050:pb-[97px] mq1050:box-border">
       <div className="w-[1230.7px] flex flex-col items-start justify-start gap-[14.9px] max-w-full">
         <div className="w-14 relative leading-[150%] font-semibold inline-block min-w-[56px] shrink-0">
           Connect
         </div>
         <div className="self-stretch flex flex-col items-start justify-start gap-[22.4px] shrink-0 text-left text-[44.8px]">
-          <b className="self-stretch relative leading-[54px] mq450:text-[27px] mq450:leading-[32px] mq1050:text-[36px] mq1050:leading-[43px]">
+          <b className="self-stretch text-black relative leading-[54px] mq450:text-[27px] mq450:leading-[32px] mq1050:text-[36px] mq1050:leading-[43px]">
             Get in Touch
           </b>
           <div className="self-stretch relative text-[16px] leading-[150%]">
@@ -22,7 +23,7 @@ const Contact1 = () => {
             iconEnvelope="/icon--envelope1.svg"
             heading="Email"
             dataContainer="Send us an email"
-            link="hello@schemaai.com"
+            link="hello@business.com"
           />
           <Content2
             iconEnvelope="/icon--phone1.svg"

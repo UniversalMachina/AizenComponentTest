@@ -57,7 +57,7 @@ const FrameComponent2 = ({ className = "" }) => {
       <animated.section
         ref={ref}
         style={springs}
-        className={`w-[1480px] flex flex-col items-start justify-start gap-[98px] max-w-full text-left text-[14px] text-customColor-400 font-poppins ${className}`}
+        className={`w-[1480px] flex flex-col items-start justify-start gap-[98px] max-w-full text-left text-[14px] text-customColor-300 font-poppins ${className}`}
       >
         <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-center">
           <div className="w-[884px] flex flex-col items-start justify-start gap-[26px] max-w-full">

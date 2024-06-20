@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 const contentData = {
-  "title": "Stay Informed",
-  "description": "Receive essential updates and valuable insights right in your email."
+  title: "Stay Informed",
+  description: "Receive essential updates and valuable insights right in your email."
 };
 
 const CTA1 = () => {
@@ -25,7 +25,7 @@ const CTA1 = () => {
   };
 
   return (
-    <section className="self-stretch overflow-hidden flex flex-col items-start justify-start pt-[149.3px] pb-[149.4px] pr-[85px] pl-[85.3px] box-border bg-[url('/public/cta--4@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full shrink-0 z-[1] text-left text-[48px] text-white font-Roboto mq825:gap-[27px_106.7px] mq825:py-[97px] mq825:px-[21px] mq825:box-border mq1450:gap-[53px_106.7px] mq1450:pl-[42px] mq1450:pr-[42px] mq1450:box-border">
+    <section className="self-stretch overflow-hidden flex flex-col items-start justify-start pt-[149.3px] pb-[149.4px] pr-[85px] pl-[85.3px] box-border bg-[url('/public/cta--4@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full shrink-0 z-[1] text-left text-[48px] text-black font-poppins mq825:gap-[27px_106.7px] mq825:py-[97px] mq825:px-[21px] mq825:box-border mq1450:gap-[53px_106.7px] mq1450:pl-[42px] mq1450:pr-[42px] mq1450:box-border">
       <div className="w-[1024px] flex flex-col items-start justify-start gap-[21.3px] max-w-full">
         <div className="self-stretch flex flex-col items-start justify-start gap-[32px] shrink-0 mq825:gap-[16px_32px]">
           <h1 className="m-0 self-stretch h-[154px] relative text-inherit leading-[120%] font-bold font-inherit inline-block mq450:text-[29px] mq450:leading-[35px] mq825:text-[38px] mq825:leading-[46px]">
@@ -45,7 +45,7 @@ const CTA1 = () => {
               onChange={handleInputChange}
             />
             <button type="submit" className="cursor-pointer py-4 bg-black h-[67px] px-[20px] box-border flex flex-row items-center justify-center whitespace-nowrap border-[1.3px] border-solid border-black hover:bg-darkslategray-100 hover:box-border hover:border-[1.3px] hover:border-solid hover:border-darkslategray-100">
-              <div className="relative text-[21.3px] leading-[32px] font-Roboto text-white text-left">
+              <div className="relative text-[21.3px] leading-[32px] font-poppins text-white text-left">
                 Subscribe Now
               </div>
             </button>
@@ -53,7 +53,7 @@ const CTA1 = () => {
           <div className="self-stretch h-6 relative leading-[150%] inline-block">
             By subscribing, you agree to our Terms and Conditions.
           </div>
-          {message && <div className="text-red-500">{message}</div>} 
+          {message && <div className="text-red-500">{message}</div>}
         </form>
       </div>
     </section>

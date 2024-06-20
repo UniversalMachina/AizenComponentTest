@@ -45,7 +45,7 @@ const FrameComponent22 = () => {
         <div className="w-[1847px] flex flex-row items-start justify-center pt-0 px-5 pb-[92px] box-border max-w-full">
           <div className="w-[1618.5px] flex flex-col items-start justify-start gap-[74px] max-w-full mq450:gap-[18px] mq900:gap-[37px]">
             <div className="w-[1550px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
-              <h1 className="m-0 w-[760px] relative text-inherit font-bold font-inherit inline-block shrink-0 max-w-full mq450:text-[36px] mq900:text-[51px]">
+              <h1 className="m-0 w-[760px] relative font-bold font-inherit text-customColor-300 text-[64px] inline-block shrink-0 max-w-full mq450:text-[36px] mq900:text-[51px]">
                 {contentData.mainHeading}
               </h1>
             </div>

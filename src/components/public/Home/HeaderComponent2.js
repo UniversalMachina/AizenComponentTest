@@ -27,8 +27,8 @@ const HeaderComponent2 = ({ className = "" }) => {
             {contentData.description}
           </div>
           <div className="w-[376px] flex flex-row items-start justify-start gap-[30px] max-w-full mq450:flex-wrap">
-            <button className="cursor-pointer pt-[19px] pb-5 pr-[17px] pl-5 bg-white flex-1 rounded-[110px] box-border overflow-hidden flex flex-row items-start justify-start min-w-[112px] whitespace-nowrap border-[0.9px] border-solid border-customGray-700 hover:bg-customGray-200 hover:box-border hover:border-[0.9px] hover:border-solid hover:border-customGray-900 mq450:flex-1">
-              <div className="flex-1 relative text-[16px] font-medium font-poppins text-black text-center">
+            <button className="cursor-pointer pt-[19px] pb-5 pr-[17px] pl-5 bg-customColor-300 flex-1 rounded-[110px] box-border overflow-hidden flex flex-row items-start justify-start min-w-[112px] whitespace-nowrap border-[0.9px] border-solid border-customColor-300 hover:bg-customGray-200 hover:box-border hover:border-[0.9px] hover:border-solid hover:border-customColor-100 mq450:flex-1">
+              <div className="flex-1 relative text-[16px] font-medium font-poppins text-white text-center">
                 Book A Call
               </div>
             </button>

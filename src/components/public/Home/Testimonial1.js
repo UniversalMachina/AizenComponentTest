@@ -1,8 +1,5 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
-import { Link } from "react-router-dom";
+import React from "react";
 
-// Adjusting the contentData for the new testimonial structure
 const contentData = {
   testimonial:
     "TestApp has revolutionized our workflow with its intuitive solutions. The efficiency and ease of use are unparalleled.",
@@ -13,18 +10,17 @@ const contentData = {
   },
   companyLogo: "/logo2-colordark1.svg",
   ratingImages: [
-    "/vector.svg",
     "/vector-1.svg",
-    "/vector-2.svg",
-    "/vector-3.svg",
-    "/vector-4.svg",
+    "/vector-1.svg",
+    "/vector-1.svg",
+    "/vector-1.svg",
+    "/vector-1.svg",
   ],
 };
 
-
 const Testimonial1 = () => {
   return (
-    <section className="self-stretch bg-white overflow-hidden flex flex-row items-start justify-center pt-[149.4px] px-5 pb-[149.2px] shrink-0 [debug_commit:f6aba90] text-center text-[28.8px] text-black font-Roboto mq925:gap-[106.7px_27px] mq925:pt-[97px] mq925:pb-[97px] mq925:box-border mq1350:gap-[106.7px_53px]">
+    <section className="self-stretch bg-white overflow-hidden flex flex-row items-start justify-center pt-[149.4px] px-5 pb-[149.2px] shrink-0 text-center text-[28.8px] text-black font-poppins mq925:gap-[106.7px_27px] mq925:pt-[97px] mq925:pb-[97px] mq925:box-border mq1350:gap-[106.7px_53px]">
       <div className="w-[921.6px] overflow-hidden shrink-0 flex flex-col items-start justify-start pt-0 px-0 pb-[0.1px] box-border gap-[38.4px] max-w-full mq450:gap-[19px_38.4px]">
         <div className="self-stretch flex flex-row items-start justify-center py-0 px-5">
           <div className="h-[22.7px] overflow-hidden flex flex-row items-start justify-start gap-[4.8px]">
@@ -42,7 +38,7 @@ const Testimonial1 = () => {
         <b className="self-stretch relative leading-[140%] mq450:text-[23px] mq450:leading-[32px]">
           {contentData.testimonial}
         </b>
-        <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-left text-[18px]i-2">
+        <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-left text-[18px]">
           <div className="w-[477.2px] flex flex-row flex-wrap items-start justify-center gap-[23.6px] max-w-full">
             <div className="h-[70.2px] flex flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
               <img

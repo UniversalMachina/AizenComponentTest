@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const contentData = {
-  "ctaDescription": "Unlock exclusive features with TestApp and streamline your workflows."
+  ctaDescription: "Unlock exclusive features with TestApp and streamline your workflows."
 };
 
 const CTA = () => {
@@ -24,8 +24,8 @@ const CTA = () => {
   };
 
   return (
-    <section className="self-stretch bg-white overflow-hidden flex flex-col items-center justify-start pt-[149.4px] px-5 pb-[149.2px] box-border max-w-full shrink-0 z-[2] lg:pt-[97px] lg:pb-[97px] lg:box-border mq450:gap-[27px_106.7px] mq450:pt-[63px] mq450:pb-[63px] mq450:box-border mq825:gap-[53px_106.7px]">
-      <footer className="w-[1749.3px] box-border overflow-hidden flex flex-row items-center justify-start max-w-full shrink-0 [row-gap:20px] text-left text-[48px] text-black font-Roboto border-[1.3px] border-solid border-black mq1450:flex-wrap">
+    <section className="self-stretch bg-white overflow-hidden flex flex-col items-center justify-start pt-[149.4px] px-5 pb-[149.2px] box-border max-w-full shrink-0 z-[2] lg:pt-[97px] lg:pb-[97px] lg:box-border mq450:gap-[27px_106.7px] mq450:pt-[63px] mq450:pb-[63px] mq450:box-border mq825:gap-[53px_106.7px] font-poppins">
+      <footer className="w-[1749.3px] box-border overflow-hidden flex flex-row items-center justify-start max-w-full shrink-0 [row-gap:20px] text-left text-[48px] text-black font-poppins border-[1.3px] border-solid border-black mq1450:flex-wrap">
         <div className="flex-[0.8537] flex flex-col items-start justify-center p-16 box-border gap-[21.3px] min-w-[569px] max-w-full lg:pl-8 lg:pr-8 lg:box-border mq825:pt-[42px] mq825:pb-[42px] mq825:box-border mq825:min-w-full mq1450:flex-1">
           <div className="self-stretch flex flex-col items-start justify-start gap-[32px] shrink-0 mq825:gap-[16px_32px]">
             <h1 className="m-0 self-stretch h-[154px] relative text-inherit leading-[120%] font-bold font-inherit inline-block mq450:text-[29px] mq450:leading-[35px] mq825:text-[38px] mq825:leading-[46px]">
@@ -45,7 +45,7 @@ const CTA = () => {
                 onChange={handleInputChange}
               />
               <button type="submit" className="cursor-pointer py-4 pr-[33.1px] pl-[33.2px] bg-black h-[67px] box-border flex flex-row items-center justify-center whitespace-nowrap border-[1.3px] border-solid border-black hover:bg-darkslategray-100 hover:box-border hover:border-[1.3px] hover:border-solid hover:border-darkslategray-100">
-                <div className="relative text-[21.3px] leading-[32px] font-Roboto text-white text-left inline-block min-w-[71px]">
+                <div className="relative text-[21.3px] leading-[32px] font-poppins text-white text-left inline-block min-w-[71px]">
                   Sign up
                 </div>
               </button>

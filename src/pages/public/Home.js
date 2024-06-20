@@ -47,11 +47,11 @@ import CustomPricing from "../../components/public/Home/CustomPricing.jsx";
 const Home = () => {
   return (
     <div className="w-full relative overflow-hidden flex flex-col items-start justify-start tracking-[normal] mq450:h-auto">
-{/* <HeaderComponent1 /> */}
+{/* <HeaderComponent1 />
 <HeaderComponent2 />
 <HeaderComponent3 />
-<HeaderComponent4 />
 <HeaderComponent5 />
+<FrameComponent18 />
 <GroupComponent2 />
 <FrameComponent17 />
 <FrameComponent15 />
@@ -64,17 +64,15 @@ const Home = () => {
 <FrameComponent26 />
 <FrameComponent12 />
 <FrameComponent22 />
-<FrameComponent27 />
-<FrameComponent23 />
-<FrameComponent28 />
+<FrameComponent27 /> 
+<FrameComponent23 /> */}
+{/* <FrameComponent28 />
 <FrameComponent8 />
 <Container2 />
 <FrameComponent29 />
-<FrameComponent5 />
 <FrameComponent30 />
 <FrameComponent31 />
 <FrameComponent33 />
-<FrameComponent32 />
 <FrameComponent2 />
 <FrameComponent />
 <FrameComponent35 />
@@ -86,12 +84,14 @@ const Home = () => {
 <CTA2 />
 <CTA3 />
 <Testimonial />
+
 <Testimonial1 />
 <CustomContact />
-<Contact />
-<Contact1 />
-<Contact3 />
-<CustomPricing />
+<Contact /> */}
+{/* <Contact1 /> */}
+{/* <Contact3 />
+<CustomPricing /> */}
+<Contact /> 
 
     </div>
   );
