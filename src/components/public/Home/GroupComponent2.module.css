@@ -1,0 +1,20 @@
+/* GroupComponent2.module.css */
+@keyframes bob {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+  
+  @keyframes bob-offset {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+  
+  .bob {
+    animation: bob 5s ease-in-out infinite;
+  }
+  
+  .bob-offset {
+    animation: bob-offset 3s ease-in-out infinite;
+    animation-delay: 1.5s; /* Offset the animation by 1.5 seconds */
+  }
+  
