@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = ({ isLoggedIn, onSignOut }) => {
   return (
-    <div className="flex items-center overflow-visible sticky top-5 z-50 w-full font-poppins">
+    <div className="flex items-center overflow-visible fixed top-5 z-50 w-full font-poppins">
       <svg
         width="40"
         height="40"
